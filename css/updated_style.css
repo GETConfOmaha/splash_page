@@ -90,7 +90,7 @@ button{
 .header__navigation ul li:first-child{
     line-height: 1.7em;
     padding-left: 12%;
-    padding-right: 35%;
+    padding-right: 25%;
     color:white;
 }
 .header__navigation ul li:not(:first-child){
