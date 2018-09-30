@@ -132,6 +132,14 @@ button{
        padding-top:160px;
     }
 
+    ul.condensed_list {
+        padding-bottom: 20px;
+    }
+
+    ul.condensed_list li p {
+        padding-bottom: 0;
+    }
+
 
 /* -----------------------------------
     Footer
