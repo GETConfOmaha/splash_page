@@ -6,6 +6,10 @@
 /* -----------------------------------
     Type
 ---------------------------------------*/
+body{
+    font-family:"helvetica";
+    margin:0;
+  }
 h1{
     font-family: 'PT Mono', monospace;
     font-size: 20px;
@@ -34,30 +38,10 @@ li{
 a:visited, a:hover{
     color:#00999E;
 }
-body{
-  font-family:"helvetica";
-  margin: 20px 0 0;
 
-}
-header {
-    position: fixed;
-    z-index: 999;
-    width: 100%;
-    background-color: white;
-    border-top: 1px solid rgba(125,127,130,0.27);
-    -webkit-box-shadow: 0px 6px 5px 0px rgba(125,127,130,0.47);
-    -moz-box-shadow: 0px 6px 5px 0px rgba(125,127,130,0.47);
-    box-shadow: 0px 6px 5px 0px rgba(125,127,130,0.47);
-}
-button{
-    background: #00999E;
-    border:1px solid #00999E;
-    border-radius: 5px;
-    padding:10px 20px;
-    font-weight: 500;
-    font-size: 16px;
-    
-}
+/* -----------------------------------
+    Styled link (link looks like button)
+---------------------------------------*/
 .styled-link{
     color:white;
     text-decoration: none;
@@ -99,6 +83,17 @@ button{
 /* -----------------------------------
     Navigation
 ---------------------------------------*/
+header {
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    background-color: white;
+    border-top: 1px solid rgba(125,127,130,0.27);
+    -webkit-box-shadow: 0px 6px 5px 0px rgba(125,127,130,0.47);
+    -moz-box-shadow: 0px 6px 5px 0px rgba(125,127,130,0.47);
+    box-shadow: 0px 6px 5px 0px rgba(125,127,130,0.47);
+    margin-top:20px;
+}
 .header__navigation ul{
     display: flex;
     flex-direction: row;
