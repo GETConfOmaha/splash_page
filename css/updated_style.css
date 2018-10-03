@@ -76,7 +76,6 @@ button{
     background-color: #643056;
     color: white;
 }
-
 .white-background {
     background-color: white;
     color: black;
@@ -95,13 +94,18 @@ button{
 .header__navigation ul li:first-child{
     line-height: 1.7em;
     padding-left: 12%;
-    padding-right: 25%;
+    padding-right: 15%;
     color:white;
 }
 .header__navigation ul li:not(:first-child){
     margin-top:24px;
     margin-right:40px;
-
+}
+.header__navigation a{
+    color:#00999E
+}
+.header__navigation i{
+    margin-top:-7px;
 }
 
 /* -----------------------------------
