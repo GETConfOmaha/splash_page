@@ -164,7 +164,7 @@ header {
     padding:10px 10px 1px;
 }
 
-.footer__copywright p, .footer__copywright a{
+.footer__copyright p, .footer__copyright a{
     color:white;
     margin: 0 auto;
     font-size:10px;
