@@ -57,6 +57,9 @@ a, a:visited, a:hover{
     color:#0C3A5C;
     background-color: #9ad1d3;
 }
+.styled-link:visited{
+    color:white;
+}
 /* -----------------------------------
     Colors
 ---------------------------------------*/
