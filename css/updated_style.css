@@ -156,28 +156,24 @@ header {
 ---------------------------------------*/
 .footer{
     background-color: #707070;
+    height: 40px;
+    width: 100%;
+    padding-bottom: 4px;
 }
 .footer__content{
     padding:10px 10px 1px;
 }
 
-.footer__copywright p{
+.footer__copywright p, .footer__copywright a{
     color:white;
     margin: 0 auto;
     font-size:10px;
     padding-top: 10px;
 }
-  .footer {
-    /* position: relative;
-    bottom: 1px; */
-    width: 100%;
-  }
   .about {
     min-height: calc(85vh - 42px);
   }
-  .footer {
-    height: 62px;
-  }
+  
 
   /* -----------------------------------
     phone
